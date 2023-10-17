@@ -9,8 +9,10 @@ namespace ConsoleApp18
     partial class Program
     {
         private static void ChangeHeadCoordinate(int[] xy)
-        {
-            // заменить координаты нулевой ячейки змейки на указанные в аргументе
+        { 
+                snake [0][0] = xy[0]; 
+                snake [0][1] = xy[1]; 
+            
         }
     }
 }
