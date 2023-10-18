@@ -10,9 +10,9 @@ namespace ConsoleApp18
             // direction установить направо
             // speed назначить в 250 мс. это скорость движения змейки
 
-            List<int> snake = new List<int>();
-            List<int> znachenya = new List<int> { 10, 10 };
-            snake.AddRange(znachenya);
+            snake = new List<int[]>();
+            int [] znachenya = { 10, 10 };
+            snake.Add(znachenya);
             direction = 2;
             speed = 250;
         }
