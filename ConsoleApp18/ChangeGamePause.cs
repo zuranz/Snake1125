@@ -11,6 +11,7 @@ namespace ConsoleApp18
         private static void ChangeGamePause()
         {
             ///Поменять значение gamePause на противоположное
+            gamePause = !gamePause;
         }
     }
 }

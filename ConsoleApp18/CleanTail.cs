@@ -10,6 +10,9 @@ namespace ConsoleApp18
     {
         private static void CleanTail()
         {
+            var index = snake.Count - 1;
+            
+            graphics.FillEllipse(System.Drawing.Brushes.Black, snake[index][0], snake[index][1], 10, 10);
             // отрисовать черный круг размером 10 на 10 по координатам последней ячейки
         }
     }
