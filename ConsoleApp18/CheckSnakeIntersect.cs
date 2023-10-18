@@ -10,7 +10,12 @@ namespace ConsoleApp18
     {
         private static bool CheckSnakeIntersect()
         {
-            // вернуть true, если координаты нулевой ячейки змейки совпадают с одной из других ее ячеек
+            for (int i = 1; i < snake.Count; i++)
+            {
+                if (snake[0] == snake[i])
+                    return true;// вернуть true, если координаты нулевой ячейки змейки совпадают с одной из других ее ячеек
+            }
+            return false;
         }
     }
 }
