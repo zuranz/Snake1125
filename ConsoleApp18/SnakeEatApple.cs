@@ -11,6 +11,7 @@ namespace ConsoleApp18
         private static bool SnakeEatApple()
         {
             return apple[0] == snake[0][0] && apple[1] == snake[0][1];
+            //
         }
     }
 }
