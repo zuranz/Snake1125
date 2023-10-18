@@ -17,6 +17,19 @@ namespace ConsoleApp18
             // Если кнопка совпадает с кнопкой налево, то direction установить в 4
             // Добавить кнопку для выхода, запускать метод GameOver
             // Если кнопка совпадает с пробелом, то запустить метод ChangeGamePause
+            
+            if (key.Key == ConsoleKey.UpArrow)
+                direction = 1;
+            if (key.Key == ConsoleKey.RightArrow)
+                direction = 2;
+            if (key.Key == ConsoleKey.DownArrow)
+                direction = 3;
+            if (key.Key == ConsoleKey.LeftArrow)
+                direction = 4;
+            if (key.Key == ConsoleKey.Escape)
+                GameOver();
+            if (key.Key == ConsoleKey.Spacebar)
+                ChangeGamePause();
         }
     }
 }
