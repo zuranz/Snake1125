@@ -8,12 +8,10 @@ namespace ConsoleApp18
 {
     partial class Program
     {
-        private static void IncreaseGameScore()
+        private static void ReductionGameScore()
         {
-            // увеличить gameScore на 1
-            gameScore++;
-            newgameScore++;
-            Titls();
+            newgameScore--;
+            
         }
     }
 }

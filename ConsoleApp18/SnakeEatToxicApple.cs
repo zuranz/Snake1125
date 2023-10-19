@@ -8,12 +8,10 @@ namespace ConsoleApp18
 {
     partial class Program
     {
-        private static void IncreaseGameScore()
+        private static bool SnakeEatToxicApple()
         {
-            // увеличить gameScore на 1
-            gameScore++;
-            newgameScore++;
-            Titls();
+            return ToxicApple[0] == snake[0][0] && ToxicApple[1] == snake[0][1];
+            
         }
     }
 }

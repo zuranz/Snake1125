@@ -17,6 +17,10 @@ namespace ConsoleApp18
             gameRunning = false;
             graphics.Clear(Color.Black);
             Console.WriteLine($"Итоговое количество очков: {gameScore}");
+            Console.WriteLine("переиграть? ");
+            Console.WriteLine("нажмите enter");
+            ConsoleKeyInfo key = Console.ReadKey();
+             restart(key);
         }
     }
 }

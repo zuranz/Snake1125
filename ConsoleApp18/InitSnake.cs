@@ -14,7 +14,7 @@ namespace ConsoleApp18
             int [] znachenia = { 10, 10 };
             snake.Add(znachenia);
             direction = 2;
-            speed = 250;
+            speed = 150;
         }
     }
 }

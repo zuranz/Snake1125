@@ -8,12 +8,17 @@ namespace ConsoleApp18
 {
     partial class Program
     {
-        private static void IncreaseGameScore()
+        private static void restart(ConsoleKeyInfo key)
         {
-            // увеличить gameScore на 1
-            gameScore++;
-            newgameScore++;
-            Titls();
+
+            if (key.Key == ConsoleKey.Enter)
+                Main(null); 
+            
+            
+                
+
+
+
         }
     }
 }
